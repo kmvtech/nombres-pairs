@@ -6,7 +6,7 @@ int nombrePositif()
     scanf("%d", &nombre);
     while (nombre < 0)
     {
-        printf("vous devez un nombre positif et non negatif :");
+        printf("vous devez entrer un nombre positif et non negatif :");
         scanf("%d", &nombre);
 
     }
